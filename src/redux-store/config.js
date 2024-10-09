@@ -7,9 +7,9 @@ import { rootReducer } from './root-reducer';
 
 // Define your persist configuration
 const persistConfig = {
-  key: 'root', // key for the persisted state
+  key: 'root', 
   storage, // storage engine (localStorage by default)
-  blacklist: ['user'], // optional: reducers you want to exclude from persistence
+  blacklist: ['user'], 
 };
 
 // Create a persisted reducer
