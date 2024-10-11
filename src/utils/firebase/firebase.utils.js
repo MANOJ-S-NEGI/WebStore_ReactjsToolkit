@@ -4,13 +4,13 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { getFirestore, doc, getDoc, setDoc, getDocs, query, collection } from  "firebase/firestore" //writeBatch
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDSB9qqwG5Fq_S9ytrut8_LMZOe4uIyTj4",
-  authDomain: "crwn-clothing-db-ac7bd.firebaseapp.com",
-  projectId: "crwn-clothing-db-ac7bd",
-  storageBucket: "crwn-clothing-db-ac7bd.appspot.com",
-  messagingSenderId: "620534833483",
-  appId: "1:620534833483:web:4bf2de48d2b5eaf248c8ce",
-  measurementId: "G-H4TDWWSC7M"
+  apiKey: "apiKey",
+  authDomain: "authDomain",
+  projectId: "projectId",
+  storageBucket: "storageBucket",
+  messagingSenderId: "messagingSenderId",
+  appId: "appId",
+  measurementId: "measurementId"
 };
 
 // Initialize Firebase
